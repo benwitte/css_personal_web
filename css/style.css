@@ -12,7 +12,7 @@ div {
 h1 {
   color: #66BFBF;
   font-size: 5.625rem;
-  margin-top: 50px ;
+  margin-top: 50px;
   margin-bottom: 10px;
   font-family: 'Sacramento', cursive;
 }
@@ -32,44 +32,62 @@ a {
   color: #11999E;
 }
 
-/*classes*/
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
+hr {
+  width: 7%;
+  color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 8px;
 }
 
+/*classes*/
 .top-container {
   background-color: #e4f9f5;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {
-
-}
-
-.bottom-container {
-
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 75px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  top: 350px;
+  left: 275px;
+  top: 450px;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 375px;
-  top: 75px;
+/* MIDDLE CONTAINER AND CONTENTS */
+.middle-container {
+  color: #40514E;
+}
+
+.skills {
+  background-color: #EAF6F6;
+  display: inline-block;
+  margin: 50px auto;
+  /* set display to inline-block to have it extend below the images
+  in the skill-row */
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+  /* added 50px at bottom margin because it affects
+  the lenght of the skills div*/
+}
+
+.about-me {
+  width: 40%;
+  margin: 0 auto 50px auto;
 }
 
 .face {
-  width:18%;
-  height:18%;
+  width: 18%;
+  height: 18%;
   border-radius: 80%;
 }
 
@@ -87,4 +105,23 @@ a {
 
 .wbda {
   font-weight: normal;
+}
+
+/* BOTTOM CONTAINER AND CONTENTS */
+.bottom-container {
+  margin: 40px auto 15px auto;
+  background-color: #66BFBF;
+}
+
+.footer-link {
+  color: #11999E;
+  padding: 20px;
+}
+
+.credit {
+  color: #EAF6F6;
+}
+
+.past-work {
+  margin: 50px auto;
 }
